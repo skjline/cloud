@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">MBS</string>
+    <string name="long_text">
+        "Material is the metaphor.\n\n"
+        "There should be some long text here but it has been reduced"
+    </string>
+
+    <string name="app_title">Contact - </string>
+
+    <string name="name">Contact name</string>
+    <string name="info">Contact information</string>
+
+    <string name="snackbar_offline_message">You are offline</string>
+    <string name="snackbar_offline_action">settings</string>
+
+    <string name="snackbar_error">Contact destination isn\'t available</string>
+    <string name="snackbar_invalid_option">Invalid option</string>
+
+    <string name="unsigned">Guest</string>
+
+    <string name="action_sign_out">sign out</string>
+    <string name="action_search">search</string>
+
+    <string name="action_save">Save</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_contact_list">ContactListActivity</string>
+
+    <string name="alert_remove_title">Remove user</string>
+    <string name="alert_remove_message">This person will be removed from all devices</string>
+    <string name="alert_action_positive">Remove</string>
+    <string name="alert_action_negative">Cancel</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">e-mail</string>
+
+    <string name="street">Street Address</string>
+    <string name="unit">Unit/Apt</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="zip">Zip Code</string>
+    <string name="county">County</string>
+    <string name="country">Country</string>
+
+</resources>

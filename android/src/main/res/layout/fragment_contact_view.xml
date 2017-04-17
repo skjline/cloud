@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_view_contact_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fragment_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:text="@string/name"
+            android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+        <TextView
+            android:id="@+id/tv_name_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:textAppearance="@android:style/TextAppearance.Material.Headline" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_view_contact_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_phone_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:text="@string/phone_number"
+            android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+        <TextView
+            android:id="@+id/tv_phone_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:textAppearance="@android:style/TextAppearance.Material.Body2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_view_contact_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_email_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:text="@string/email"
+            android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+        <TextView
+            android:id="@+id/tv_email_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:textAppearance="@android:style/TextAppearance.Material.Body2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_view_contact_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_address_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:text="@string/street"
+            android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+        <TextView
+            android:id="@+id/tv_address_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:hint="N/A"
+            android:textAppearance="@android:style/TextAppearance.Material.Body2" />
+    </LinearLayout>
+</LinearLayout>
