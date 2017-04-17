@@ -1,0 +1,17 @@
+*.iml
+*.json
+
+AwsCredentials.properties
+aws-mobile.json
+aws-lambda.json
+google-services.json
+
+.externalNativeBuild
+
+.idea
+.gradle
+
+**/build
+**/.DS_Store
+/captures
+/local.properties
