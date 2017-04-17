@@ -16,7 +16,7 @@ After making any change in the database, the application will be notified throug
 ----
 ### Cloud Components
 <p>
-![Components](https://raw.githubusercontent.com/skjline/cloud/master/res/aws-layout.png?raw=true)
+[[https://raw.githubusercontent.com/skjline/cloud/master/res/aws-layout.png]]
 <p>
 
 * Amazon Web Service
